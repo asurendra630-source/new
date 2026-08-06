@@ -1,0 +1,11 @@
+# OrbitDesk support agent — local-first dependencies
+# Install with:  pip install -r requirements.txt
+# (torch CPU wheel recommended on Windows: pip install torch --index-url https://download.pytorch.org/whl/cpu)
+
+torch>=2.2
+transformers>=4.40
+sentence-transformers>=3.0
+numpy
+jsonschema
+pytest>=8.0
+Pillow>=10.0

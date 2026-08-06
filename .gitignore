@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Local HF model caches (re-downloadable)
+.cache/
+*.safetensors
+*.bin
+models/
+
+# OS junk
+.DS_Store
+Thumbs.db
